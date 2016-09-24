@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin:0;padding:0;font-family:"微软雅黑";}
+body{background:url(../img/1.jpg) no-repeat;background-size:cover;}
+#wrapper{width:700px;margin:100px auto 0;}
+
+/* 发表区 */
+#wrapper .publish_area{padding:10px;background-color:#fff;border-radius:5px;}
+#wrapper .publish_area .input_type{border:1px solid #ccc;overflow:hidden;}
+#wrapper .publish_area .input_type .upload_input{float:left;width:100px;height:35px;background:url(../img/tu.png) no-repeat center center;padding-top:65px;text-align:center;font-size:14px;border-right:1px solid #ccc;cursor:pointer;}
+#wrapper .publish_area .input_type .text_input{margin-left:100px;height:90px;outline:none;padding:5px;font-size:13px;overflow-y:auto;}
+#wrapper .publish_area .upload_type{padding:10px;font-size:14px;overflow:hidden;display:none;}
+#wrapper .publish_area .upload_type ul{list-style:none;float:left;}
+#wrapper .publish_area .upload_type ul li{float:left;padding:5px 15px;cursor:pointer;}
+#wrapper .publish_area .upload_type .publish_btn{float:right;padding:5px 15px;background-color:#F90;border-radius:3px;color:#fff;cursor:pointer;}
+
+/* 拖拽区 */
+#wrapper .drag_area{height:250px;line-height:250px;text-align:center;background:rgba(0,0,0,0.7);display:none;color:#CCC;font-size:30px;padding:10px;border-radius:4px;overflow:auto;}
+#wrapper .drag_area img{width:200px;height:auto;}
